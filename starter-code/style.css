@@ -1,0 +1,65 @@
+
+
+.container {
+    margin: 100px auto;
+    height: 500px;
+    width: 500px;
+    border: 1px solid;
+}
+p {
+    font-size: 25px;
+    text-transform: capitalize;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+}
+.item {
+    transition: background 0.5s ease-in-out;
+}
+
+.item.active {
+    background-color: rgb(68, 23, 23);
+    color: transparent;
+    
+}
+
+.mygrid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    height: 100%;
+    gap: 10px;
+}
+div[class^="item"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
+   
+  
+
+.item2 {
+    background-color: red;
+}
+.item4 {
+    background-color: blue;
+}
+.item6 {
+    background-color: gold;
+}
+.item8 {
+    background-color: thistle;
+}
+.item10 {
+    background-color: pink;
+}
+.item12 {
+    background-color: green;
+}
+.item14 {
+    background-color: blueviolet;
+}
+.item16 {
+    background-color: aquamarine;
+}
+
+
